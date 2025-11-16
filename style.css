@@ -19,11 +19,11 @@ body {
 header {
     width: 100%;
     height: 100%;
-    /* border: 1px solid #fff; */
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow-y: auto;
 }
+
 
 header .menu_side, .song_side {
     position: relative;
@@ -603,3 +603,60 @@ header .song_side .popular_artists .item li img{
  border-radius: 50%;
  position: absolute;
 }
+
+
+header .song_side .popular_song .pop_song li {
+    flex-shrink: 0;
+}
+
+header .song_side .popular_song .pop_song li .img_play img {
+    object-fit: cover;
+}
+
+header .song_side .popular_song .pop_song li h5 {
+    min-height: 30px;
+}
+
+header .song_side .popular_song .pop_song li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.popular-artists {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.artist-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255,255,255,0.05);
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.artist-card:hover {
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+}
+
+.artist-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1db954;
+}
+
+
+
