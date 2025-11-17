@@ -631,6 +631,12 @@ header .song_side .popular_song .pop_song li {
   gap: 20px;
   flex-wrap: wrap;
 }
+.Marathi-hiphop {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
 .artist-card {
   display: flex;

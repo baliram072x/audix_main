@@ -3,113 +3,187 @@ document.addEventListener('DOMContentLoaded', () => {
   const music = new Audio();
 
   const songs = [
-    { id:'1',
-       songName:`Mahaan<br><div class="subtitle">RockSun</div>`, 
-       poster: "img/17.png", 
-       file: "https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3" ,
+    {
+      id: '1',
+      songName: `Mahaan<br><div class="subtitle">RockSun</div>`,
+      poster: "img/17.png",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3",
       artist: "RockSun"
-      },
-    { id:'2',
-       songName:`Alan Walker - Fade <br><div class="subtitle">Alan Walker</div>`, 
-       poster: "img/2.jpg", 
-       file: "https://raw.githubusercontent.com/baliram072x/songs/main/2.mp3" 
-      },
-    { id:'3', 
-      songName:`Cartoon - On & On <br><div class="subtitle">Daniel Levi</div>`, 
-      poster: "img/3.jpg", 
-      file: "https://raw.githubusercontent.com/baliram072x/songs/main/3.mp3" 
     },
-    { id:'4', 
-      songName:`Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
-       poster: "img/4.jpg",
-        file: "https://raw.githubusercontent.com/baliram072x/songs/main/4.mp3"
-       },
-    { id:'5',
-       songName:`Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`, 
-       poster: "img/5.jpg",
-        file: "https://raw.githubusercontent.com/baliram072x/songs/main/5.mp3"
-       },
-    { id:'6', 
-      songName:`Electronic Music <br><div class="subtitle">Electro</div>`, 
+    {
+      id: '2',
+      songName: `Alan Walker - Fade <br><div class="subtitle">Alan Walker</div>`,
+      poster: "img/2.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/2.mp3"
+    },
+    {
+      id: '3',
+      songName: `Cartoon - On & On <br><div class="subtitle">Daniel Levi</div>`,
+      poster: "img/3.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/3.mp3"
+    },
+    {
+      id: '4',
+      songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
+      poster: "img/4.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/4.mp3"
+    },
+    {
+      id: '5',
+      songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
+      poster: "img/5.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/5.mp3"
+    },
+    {
+      id: '6',
+      songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
       poster: "img/6.jpg",
-       file: "https://raw.githubusercontent.com/baliram072x/songs/main/6.mp3" 
-      },
-    { id:'7',
-       songName:`Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
-        poster: "img/7.jpg",
-         file: "https://raw.githubusercontent.com/baliram072x/songs/main/7.mp3"
-         },
-    { id:'8',
-       songName:`Suna Hai <br><div class="subtitle">Neha Kakkar</div>`,
-        poster: "img/8.jpg",
-         file: "https://raw.githubusercontent.com/baliram072x/songs/main/8.mp3"
-         },
-    { id:'9', 
-      songName:`Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
-       poster: "img/9.jpg", 
-       file: "https://raw.githubusercontent.com/baliram072x/songs/main/9.mp3" 
-      },
-    { id:'10', 
-      songName:`Duniya <br><div class="subtitle">Luka Chuppi</div>`,
-       poster: "img/10.jpg",
-        file: "https://raw.githubusercontent.com/baliram072x/songs/main/10.mp3"
-       },
-    { id:'11', 
-      songName:`Lagdi Lahore Di <br><div class="subtitle">Street Dancer 3D</div>`,
-       poster: "img/11.jpg",
-        file: "https://raw.githubusercontent.com/baliram072x/songs/main/11.mp3"
-       },
-    { id:'12', 
-      songName:`Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`, 
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/6.mp3"
+    },
+    {
+      id: '7',
+      songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
+      poster: "img/7.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/7.mp3"
+    },
+    {
+      id: '8',
+      songName: `Suna Hai <br><div class="subtitle">Neha Kakkar</div>`,
+      poster: "img/8.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/8.mp3"
+    },
+    {
+      id: '9',
+      songName: `Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
+      poster: "img/9.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/9.mp3"
+    },
+    {
+      id: '10',
+      songName: `Duniya <br><div class="subtitle">Luka Chuppi</div>`,
+      poster: "img/10.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/10.mp3"
+    },
+    {
+      id: '11',
+      songName: `Lagdi Lahore Di <br><div class="subtitle">Street Dancer 3D</div>`,
+      poster: "img/11.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/11.mp3"
+    },
+    {
+      id: '12',
+      songName: `Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`,
       poster: "img/12.jpg",
-       file: "https://raw.githubusercontent.com/baliram072x/songs/main/12.mp3" 
-      },
-    { id:'13',
-       songName:`Baarishein <br><div class="subtitle">Atif Aslam</div>`,
-        poster: "img/13.jpg",
-         file: "https://raw.githubusercontent.com/baliram072x/songs/main/13.mp3" 
-        },
-    { id:'14',
-       songName:`Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
-        poster: "img/14.jpg", 
-        file: "https://raw.githubusercontent.com/baliram072x/songs/main/14.mp3" 
-      },
-    { id:'15',
-       songName:`Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
-        poster: "img/15.jpg",
-         file: "https://raw.githubusercontent.com/baliram072x/songs/main/15.mp3"
-         },
-    { id:'16',
-       songName:`Dhundhala `, 
-       poster:"img/16.jpg", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/16.mp3"
-       },
-       { id:'17',
-       songName:`Mahaan `, 
-       poster:"img/17.png", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3"
-       },
-       { id:'18',
-       songName:`Saltanat `, 
-       poster:"img/18.png", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/18.mp3"
-       },
-       { id:'19',
-       songName:`Russian Queen `, 
-       poster:"img/19.png", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/19.mp3"
-       },
-       { id:'20',
-       songName:`Dominance`, 
-       poster:"img/20.png", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/20.mp3"
-       },
-       { id:'21',
-       songName:`Rakkam`, 
-       poster:"img/20.png", 
-       file:"https://raw.githubusercontent.com/baliram072x/songs/main/20.mp3"
-       },
-      
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/12.mp3"
+    },
+    {
+      id: '13',
+      songName: `Baarishein <br><div class="subtitle">Atif Aslam</div>`,
+      poster: "img/13.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/13.mp3"
+    },
+    {
+      id: '14',
+      songName: `Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
+      poster: "img/14.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/14.mp3"
+    },
+    {
+      id: '15',
+      songName: `Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
+      poster: "img/15.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/15.mp3"
+    },
+    {
+      id: '16',
+      songName: `Dhundhala <br><div class="subtitle">Talwinder</div>`,
+      poster: "img/16.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/16.mp3"
+    },
+    {
+      id: '17',
+      songName: `Mahaan <br><div class="subtitle">Rocksun</div>`,
+      poster: "img/17.png",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3"
+    },
+    {
+      id: '18',
+      songName: `Saltanat <br><div class="subtitle">Rocksun</div>`,
+      poster: "img/saltanat.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/rocKsun - Russian Queen.mp3"
+    },
+    {
+      id: '19',
+      songName: `Russian Queen <br><div class="subtitle">Rocksun</div>`,
+      poster: "img/russian-queen.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/rocKsun - Russian Queen.mp3"
+    },
+    {
+      id: '20',
+      songName: `Dominance<br><div class="subtitle">Rocksun</div> `,
+      poster: "img/dominance.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/rocKsun - DOMINANCE (Beat By - Greco).mp3"
+    },
+    {
+      id: '21',
+      songName: `Rakkam <br><div class="subtitle">Rocksun</div>`,
+      poster: "img/rakkam.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/rocKsun - Rakkam (Official Audio).mp3"
+    },
+    {
+      id: '22',
+      songName: `Samjho NA <br><div class="subtitle">Baliram RAthod</div>`,
+      poster: "img/samjho na.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Aditya Rikhari - SAMJHO NA ( NASAMAJH ).mp3"
+    },
+    {
+      id: '23',
+      songName: `Jaane na tu <br><div class="subtitle">Bhumi</div>`,
+      poster: "img/janena.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Jaane Na Tu (Official Music Video) _ Bhoomi  Almost Loved - EP  UR Debut  Latest Hindi Indie Song.mp3"
+    },
+    {
+      id: '24',
+      songName: `Lallati bhandar `,
+      poster: "img/lallati.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Lallati Bhandar - Lyrical Video  Jogwa  Ajay-Atul  Mukta Barve  Upendra Limaye  Kishor Kadam.mp3"
+    },
+    {
+      id: '25',
+      songName: `Nako Raste changle <br><div class="subtitle">Sambata</div>`,
+      poster: "img/nako.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Nako Raste Changle - SAMBATA l OFFICIAL VIDEO l (Prod.by KHAKIEE).mp3"
+    },
+    {
+      id: '26',
+      songName: `Pinaak <br><div class="subtitle">Sambata</div>`,
+      poster: "img/pinaak.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Pinnak.mp3"
+    },
+    {
+      id: '27',
+      songName: `Rx100 <br><div class="subtitle">MC Gawathi</div> `,
+      poster: "img/rx100.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/RX100  MC GAWTHI  PROD.BY YD  OFFCIAL MUSIC VIDEO.mp3"
+    },
+    {
+      id: '28',
+      songName: `SAD GAANA <br><div class="subtitle">Bali</div>`,
+      poster: "img/sad.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SAD GAANA (Animated Video)  BALI  AN1K8T  KALA KHATTA EP.mp3"
+    },
+    {
+      id: '29',
+      songName: `SHOORVEER 3`,
+      poster: "img/shoorveer3.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SHOORVEER 3 - A Tribute to छतरपत शवज महरज  Rapperiya Baalam Ft. Shambho I Meetu Solanki.mp3"
+    },
+    {
+      id: '30',
+      songName: `Vazan<br><div class="subtitle"></div>`,
+      poster: "img/vajan.jpg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Sambata x Karan Kanchan - Vazan (Official Video)  Red Bull 64 Bars  Def Jam India.mp3"
+    },
   ];
 
   // Attach posters + names in UI (be defensive: only do for existing items)
@@ -367,3 +441,246 @@ function playSong(file, poster, songName) {
   document.getElementById('title').innerHTML = songName;
 }
 
+const songItems = Array.from(document.getElementsByClassName('songItem'));
+songItems.forEach((element, i) => {
+  const s = songs[i];
+  if (!s) return;
+
+  const img = element.querySelector('img');
+  const h5 = element.querySelector('h5');
+  const subtitle = element.querySelector('.subtitle');
+
+  if (img) img.src = s.poster;
+  if (h5) h5.innerHTML = s.songName;
+  if (subtitle) subtitle.innerHTML = s.artist || '';
+});
+
+function showPlaylist(artistName) {
+  const playlistEl = document.getElementById('playlist-songs');
+  if (!playlistEl) return;
+
+  playlistEl.innerHTML = ""; // Clear previous songs
+
+  // Filter songs based on artist name
+  const filteredSongs = songs.filter(song => song.artist && song.artist.toLowerCase() === artistName.toLowerCase());
+
+  filteredSongs.forEach((song, i) => {
+    const li = document.createElement('li');
+    li.classList.add('songItem');
+    li.innerHTML = `
+      <div class="img_play">
+        <img src="${song.poster}" alt="${song.songName}" style="width:60px;height:60px;object-fit:cover;">
+        <i class="bi playListPlay bi-play-circle-fill" id="playlist-${i + 1}"></i>
+      </div>
+      <h5>
+        ${song.songName.replace(/<br>.*/, "")}
+        <br>
+        <div class="subtitle">${song.artist}</div>
+      </h5>
+    `;
+    playlistEl.appendChild(li);
+
+    // Attach click to play button
+    li.querySelector('.playListPlay').addEventListener('click', () => {
+      playSong(song.file, song.poster, song.songName);
+    });
+  });
+}
+
+
+
+// // Marathi HipHop songs (same songs but alag array)
+// const marathiHipHopSongs = [
+//   {
+//     id: '101', songName: `Mahaan<br><div class="subtitle">RockSun</div>`,
+//     poster: "img/17.png",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3",
+//     artist: "RockSun"
+//   },
+//   {
+//     id: '102',
+//     songName: `Lallati bhandar`,
+//     poster: "img/lallati.jpg", file: "https://raw.githubusercontent.com/baliram072x/songs/main/Lallati Bhandar - Lyrical Video  Jogwa  Ajay-Atul  Mukta Barve  Upendra Limaye  Kishor Kadam.mp3",
+//     artist: "Ajay-Atul"
+//   },
+//   {
+//     id: '103',
+//     songName: `Nako Raste changle <br><div class="subtitle">Sambata</div>`,
+//     poster: "img/nako.jpg",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/Nako Raste Changle - SAMBATA l OFFICIAL VIDEO l (Prod.by KHAKIEE).mp3",
+//     artist: "Sambata"
+//   },
+//   {
+//     id: '104',
+//     songName: `Pinaak <br><div class="subtitle">Sambata</div>`,
+//     poster: "img/pinaak.jpg", file: "https://raw.githubusercontent.com/baliram072x/songs/main/Pinnak.mp3",
+//     artist: "Sambata"
+//   },
+//   {
+//     id: '105',
+//     songName: `Vazan<br><div class="subtitle"></div>`,
+//     poster: "img/vajan.jpg",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/Sambata x Karan Kanchan - Vazan (Official Video)  Red Bull 64 Bars  Def Jam India.mp3",
+//     artist: "Sambata x Karan Kanchan"
+//   }
+// ];
+
+// const marathiSongsDiv = document.getElementById("marathi_songs");
+// const music = document.getElementById("audio"); // assume aapke page me <audio id="audio"></audio> hai
+// const poster_master_play = document.getElementById("poster_master_play"); // main poster
+// const title = document.getElementById("title"); // main title display
+
+// // Populate Marathi songs dynamically
+// marathiHipHopSongs.forEach(song => {
+//   const li = document.createElement("li");
+//   li.classList.add("songItem");
+//   li.innerHTML = `
+//     <div class="img_play">
+//       <img src="${song.poster}" alt="${song.artist}">
+//       <i class="bi playListPlay bi-play-circle-fill" id="${song.id}"></i>
+//     </div>
+//     <h5>${song.songName}</h5>
+//   `;
+//   marathiSongsDiv.appendChild(li);
+// });
+
+// // Add play event
+// document.querySelectorAll(".playListPlay").forEach((element) => {
+//   element.addEventListener("click", (e) => {
+//     let song = marathiHipHopSongs.find(s => s.id === e.target.id);
+//     if(song){
+//       music.src = song.file;
+//       music.play();
+//       poster_master_play.src = song.poster;
+//       title.innerHTML = song.songName;
+//     }
+//   });
+// });
+
+
+//     const marathiHipHopSongs = [
+//   {
+//     id: '101',
+//     songName: `Mahaan<br><div class="subtitle">RockSun</div>`,
+//     poster: "img/17.png",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/17.mp3",
+//     artist: "RockSun"
+//   },
+//   {
+//     id: '102',
+//     songName: `Lallati bhandar`,
+//     poster: "img/lallati.jpg",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/Lallati Bhandar - Lyrical Video  Jogwa  Ajay-Atul  Mukta Barve  Upendra Limaye  Kishor Kadam.mp3",
+//     artist: "Ajay-Atul"
+//   },
+//   {
+//     id: '103',
+//     songName: `Nako Raste changle <br><div class="subtitle">Sambata</div>`,
+//     poster: "img/nako.jpg",
+//     file: "https://raw.githubusercontent.com/baliram072x/songs/main/Nako Raste Changle - SAMBATA l OFFICIAL VIDEO l (Prod.by KHAKIEE).mp3",
+//     artist: "Sambata"
+//   }
+// ];
+
+// const marathiSongsDiv = document.getElementById("marathi_songs");
+// const music = document.getElementById("audio"); // audio tag
+// const poster_master_play = document.getElementById("poster_master_play");
+// const title = document.getElementById("title");
+
+// function showMarathiSongs(array){
+//   marathiSongsDiv.innerHTML = ""; // clear previous
+
+//   array.forEach(song => {
+//     const li = document.createElement("li");
+//     li.classList.add("songItem");
+//     li.innerHTML = `
+//       <div class="img_play">
+//         <img src="${song.poster}" alt="${song.artist}">
+//         <i class="bi playListPlay bi-play-circle-fill" id="${song.id}"></i>
+//       </div>
+//       <h5>${song.songName}</h5>
+//     `;
+//     marathiSongsDiv.appendChild(li);
+
+//     // Event listener for play button **here inside loop**
+//     li.querySelector(".playListPlay").addEventListener("click", () => {
+//       music.src = song.file;
+//       music.play();
+//       poster_master_play.src = song.poster;
+//       title.innerHTML = song.songName;
+//     });
+//   });
+// }
+
+// // Call the function once
+// showMarathiSongs(marathiHipHopSongs);
+document.addEventListener('DOMContentLoaded', () => {
+    const marathiSongs = [
+        {
+            id: '101',
+            songName: `Lallati Bhandar <br><div class="subtitle">Jogwa</div>`,
+            poster: "img/lallati.jpg",
+            file: "https://raw.githubusercontent.com/baliram072x/songs/main/Lallati Bhandar - Lyrical Video  Jogwa  Ajay-Atul  Mukta Barve  Upendra Limaye  Kishor Kadam.mp3"
+        },
+        {
+            id: '102',
+            songName: `Nako Raste changle <br><div class="subtitle">Sambata</div>`,
+            poster: "img/nako.jpg",
+            file: "https://raw.githubusercontent.com/baliram072x/songs/main/Nako Raste Changle - SAMBATA l OFFICIAL VIDEO l (Prod.by KHAKIEE).mp3"
+        },
+        {
+            id: '103',
+            songName: `Pinaak <br><div class="subtitle">Sambata</div>`,
+            poster: "img/pinaak.jpg",
+            file: "https://raw.githubusercontent.com/baliram072x/songs/main/Pinnak.mp3"
+        },
+        {
+            id: '104',
+            songName: `Rx100 <br><div class="subtitle">MC Gawathi</div>`,
+            poster: "img/rx100.jpg",
+            file: "https://raw.githubusercontent.com/baliram072x/songs/main/RX100  MC GAWTHI  PROD.BY YD  OFFCIAL MUSIC VIDEO.mp3"
+        }
+        // Add more Marathi Hiphop songs here
+    ];
+
+    const marathiContainer = document.getElementById('marathi_songs');
+
+    marathiSongs.forEach(song => {
+        const li = document.createElement('li');
+        li.classList.add('songItem');
+
+        li.innerHTML = `
+            <div class="img_play">
+                <img src="${song.poster}" alt="Marathi Song">
+                <i class="bi playListPlay bi-play-circle-fill" id="${song.id}"></i>
+            </div>
+            <h5>${song.songName}</h5>
+        `;
+        marathiContainer.appendChild(li);
+    });
+
+    // Add play functionality similar to your main songs array
+    Array.from(document.getElementsByClassName('playListPlay')).forEach((element) => {
+        element.addEventListener('click', (e) => {
+            const id = e.target.id;
+            const song = marathiSongs.find(s => s.id === id) || songs.find(s => s.id === id);
+            if (!song) return;
+
+            music.src = song.file;
+            poster_master_play.src = song.poster;
+            title.innerHTML = song.songName;
+            music.play();
+            masterPlay.classList.replace('bi-play-fill', 'bi-pause-fill');
+            wave.classList.add('active2');
+
+            makeAllPlays();
+            e.target.classList.remove('bi-play-circle-fill');
+            e.target.classList.add('bi-pause-circle-fill');
+
+            makeAllBackgrounds();
+            const songEls = Array.from(document.getElementsByClassName('songItem'));
+            const index = songEls.findIndex(el => el.contains(e.target));
+            if (songEls[index]) songEls[index].style.background = "rgb(105, 105, 170, .1)";
+        });
+    });
+});
