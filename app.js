@@ -184,7 +184,297 @@ document.addEventListener('DOMContentLoaded', () => {
       poster: "img/vajan.jpg",
       file: "https://raw.githubusercontent.com/baliram072x/songs/main/Sambata x Karan Kanchan - Vazan (Official Video)  Red Bull 64 Bars  Def Jam India.mp3"
     },
+    {
+      id: '31',
+      songName: `laldivchi gadi<br><div class="subtitle"></div>`,
+      poster: "img/laldivychi gadi.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Laal Divyachi Gadi - rocKsun.mp3"
+    },
+    {
+      id: '32',
+      songName: `shaky<br><div class="subtitle"></div>`,
+      poster: "img/shaky.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Shaky (Official Video) Sanju Rathod Ft. Isha Malviya  G-Spark  New Marathi Songs 2025.mp3"
+    },
+    {
+      id: '33',
+      songName: `Apsara Ali<br><div class="subtitle"></div>`,
+      poster: "img/Apsara.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Apsara Aali - Ajay Gogavale.mp3"
+    },
+    {
+      id: '34',
+      songName: `Attention<br><div class="subtitle"></div>`,
+      poster: "img/attention.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Attention - Charlie Puth.mp3"
+    },
+    {
+      id: '35',
+      songName: `Beggin<br><div class="subtitle"></div>`,
+      poster: "img/beggin.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Beggin_ - Måneskin.mp3"
+    },
+    {
+      id: '36',
+      songName: `Chal turu turu <br><div class="subtitle"></div>`,
+      poster: "img/turu.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Chaal Turu Turu - Abhijeet Sawant.mp3"
+    },
+    {
+      id: '37',
+      songName: `Cry for me <br><div class="subtitle"></div>`,
+      poster: "img/cry.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Cry For Me - The Weeknd.mp3"
+    },
+    {
+      id: '38',
+      songName: `Da DA dasse<br><div class="subtitle"></div>`,
+      poster: "img/dada.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Da Da Dasse - Amit Trivedi.mp3"
+    },
+    {
+      id: '39',
+      songName: `Dhaga dhaga <br><div class="subtitle"></div>`,
+      poster: "img/dhaga.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Dhaga Dhaga - harsh wavre.mp3"
+    },
+    {
+      id: '40',
+      songName: `Dolby walya<br><div class="subtitle"></div>`,
+      poster: "img/dolby.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Dolby Walya - Nagesh Morwekar.mp3"
+    },
+    {
+      id: '41',
+      songName: "For A Reason - Karan Aujla",
+      poster: "img/for a reason.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - For A Reason - Karan Aujla.mp3"
+    },
+    {
+      id: '42',
+      songName: "Gallan 4 - Talwiinder",
+      poster: "img/gallan 4.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Gallan 4 - Talwiinder.mp3"
+    },
+    {
+      id: '43',
+      songName: "Gulabachya Phula - Rocksun",
+      poster: "img/gulabachy fula.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Gulabachya Phula - Rocksun.mp3"
+    },
+    {
+      id: '44',
+      songName: "Haseen - Talwiinder",
+      poster: "img/haseen.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Haseen - Talwiinder.mp3"
+    },
+    {
+      id: '45',
+      songName: "Hrudayat Vaje Something - Vidhit Patankar",
+      poster: "img/hrudayat.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Hrudayat Vaje Something - Vidhit Patankar (1).mp3"
+    },
+    {
+      id: '46',
+      songName: "Jhumka - Sanju Rathod",
+      poster: "img/jumka.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Jhumka - Sanju Rathod.mp3"
+    },
+    {
+      id: '47',
+      songName: "Kaarte Nibaar - SAMBATA",
+      poster: "img/karte.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Kaarte Nibaar - SAMBATA.mp3"
+    },
+    {
+      id: '48',
+      songName: "Kadhi Tu (From Mumbai Pune Mumbai) - Avinash Vishwajeet",
+      poster: "img/kadhi tu.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Kadhi Tu _From Mumbai Pune Mumbai_ - Avinash Vishwajeet.mp3"
+    },
+    {
+      id: '49',
+      songName: "Kammo Ji - Talwiinder",
+      poster: "img/kammo ji.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Kammo Ji - Talwiinder.mp3"
+    },
+    {
+      id: '50',
+      songName: "Kevadyacha Paan Tu - Ajay Gogavale",
+      poster: "img/kevdych pan.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Kevadyacha Paan Tu - Ajay Gogavale.mp3"
+    },
+    {
+      id: '51',
+      songName: "Khayaal - Talwiinder",
+      poster: "img/khayaal.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Khayaal - Talwiinder.mp3"
+    },
+    {
+      id: '52',
+      songName: "Kombdi Palali - Anand Shinde",
+      poster: "img/kombdi.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Kombdi Palali - Anand Shinde.mp3"
+    },
+    {
+      id: '53',
+      songName: "Lal Chikhal (From Navardev Bsc. Agri) - Khakee",
+      poster: "img/bsc agri.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Lal Chikhal - From _Navardev Bsc. Agri_ - Khakee.mp3"
+    },
+    {
+      id: '54',
+      songName: "Love Dose - Yo Yo Honey Singh",
+      poster: "img/Lovedose.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Love Dose - Yo Yo Honey Singh.mp3"
+    },
+    {
+      id: '55',
+      songName: "MONTAGEM RUGADA - cape",
+      poster: "img/Montagem.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - MONTAGEM RUGADA - cape.mp3"
+    },
+    {
+      id: '56',
+      songName: "Madanmanjiri (From Phullwanti) - Vaishali Made",
+      poster: "img/fulwanti.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Madanmanjiri - From _Phullwanti_ - Vaishali Made.mp3"
+    },
+    {
+      id: '57',
+      songName: "Majhi Baay Go - Prashant Nakti",
+      poster: "img/Baigo.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Majhi Baay Go - Prashant Nakti.mp3"
+    },
+    {
+      id: '58',
+      songName: "Mehbooba - Preet Bandre",
+      poster: "img/Mehboob.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Mehbooba - Preet Bandre.mp3"
+    },
+    {
+      id: '59',
+      songName: "Mitwaa - Shankar Mahadevan",
+      poster: "img/Mitwa.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Mitwaa - Shankar Mahadevan.mp3"
+    },
+    {
+      id: '60',
+      songName: "Nasha - Talwiinder",
+      poster: "img/Nasha.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Nasha - Talwiinder.mp3"
+    },
+    {
+      id: '61',
+      songName: "Olya Sanj Veli - Bela Shende",
+      poster: "img/Olya.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Olya Sanj Veli - Bela Shende.mp3"
+    },
+    {
+      id: '62',
+      songName: "Paaro - Aditya Rikhari",
+      poster: "img/paroo.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Paaro - Aditya Rikhari.mp3"
+    },
+    {
+      id: '63',
+      songName: "Phullwanti - Title Track - Aarya Ambekar",
+      poster: "img/Fulwanti.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Phullwanti - Title Track - Aarya Ambekar.mp3"
+    },
+    {
+      id: '64',
+      songName: "Raabta - Pritam",
+      poster: "img/Raabta.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Raabta - Pritam.mp3"
+    },
+    {
+      id: '65',
+      songName: "Shape of You - Ed Sheeran",
+      poster: "img/Shape.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Shape of You - Ed Sheeran.mp3"
+    },
+    {
+      id: '66',
+      songName: "Sukh Kalale - Ajay-Atul",
+      poster: "img/Sukh.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Sukh Kalale - Ajay-Atul.mp3"
+    },
+    {
+      id: '67',
+      songName: "Tera Saath - Talwiinder",
+      poster: "img/Tera sath.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Tera Saath - Talwiinder.mp3"
+    },
+    {
+      id: '68',
+      songName: "Tere Ishk Mein (From Tere Ishk Mein) - A.R. Rahman",
+      poster: "img/tere ishque mai.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Tere Ishk Mein _From _Tere Ishk Mein__ - A.R. Rahman.mp3"
+    },
+    {
+      id: '69',
+      songName: "Tik Tik Vajate Dokyaat - Duet Version - Sonu Nigam",
+      poster: "img/tik tik.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Tik Tik Vajate Dokyaat - Duet Version - Sonu Nigam.mp3"
+    },
+    {
+      id: '70',
+      songName: "Tola Tola - Amitraj",
+      poster: "img/Ahire.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Tola Tola - Amitraj.mp3"
+    },
+    {
+      id: '71',
+      songName: "Tu - Talwiinder",
+      poster: "img/Tu.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Tu - Talwiinder.mp3"
+    },
+    {
+      id: '72',
+      songName: "Unforgettable - Talwiinder",
+      poster: "img/Tu.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Unforgettable - Talwiinder.mp3"
+    },
+    {
+      id: '73',
+      songName: "Yad Lagla - Ajay Gogavale",
+      poster: "img/Sairat1.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Yad Lagla - Ajay Gogavale.mp3"
+    },
+    {
+      id: '74',
+      songName: "Your Eyes - Talwiinder",
+      poster: "img/Tu.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Your Eyes - Talwiinder.mp3"
+    },
+    {
+      id: '75',
+      songName: "Zaalima - Arijit Singh",
+      poster: "img/zaalima.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Zaalima - Arijit Singh.mp3"
+    },
+    {
+      id: '76',
+      songName: "Zindagi Zindagi - Sachin Pilgaonkar",
+      poster: "img/Zhindagi.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Zindagi Zindagi - Sachin Pilgaonkar.mp3"
+    },
+    {
+      id: '78',
+      songName: "Zingaat - Atul Gogavale",
+      poster: "img/Sairat2.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/SpotiDown.App - Zingaat - Atul Gogavale.mp3"
+    },
+    {
+      id: '79',
+      songName: "Sundari (Official Video) - Sanju Rathod Ft. Yashika Jatav",
+      poster: "img/ img/Sundari.jpeg",
+      file: "https://raw.githubusercontent.com/baliram072x/songs/main/Sundari (Official Video) Sanju Rathod Ft. Yashika Jatav  G-Spark  Marathi Song 2025.mp3"
+    },
+
   ];
+
 
   // Attach posters + names in UI (be defensive: only do for existing items)
   const songItems = Array.from(document.getElementsByClassName('songItem'));
