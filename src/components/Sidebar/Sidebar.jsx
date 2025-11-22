@@ -58,7 +58,7 @@ const Sidebar = ({ showNav, setShowNav }) => {
             DMCA
           </p>
         </Link>
-        <a
+        {/* <a
           href="https://github.com/himanshu8443/hayasaka"
           target="_blank"
           rel="noreferrer"
@@ -66,7 +66,7 @@ const Sidebar = ({ showNav, setShowNav }) => {
           <p className=" hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm flex items-center gap-1">
             <FaGithub />
             Github
-          </p>
+          </p> */}
         </a>
       </div>
     </div>
