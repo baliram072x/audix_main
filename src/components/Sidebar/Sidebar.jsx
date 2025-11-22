@@ -52,23 +52,24 @@ const Sidebar = ({ showNav, setShowNav }) => {
           <hr className="border-gray-400 w-[95%] mx-auto" />
         </div>
       </div>
-      <div className=" mb-28 text-gray-200 mx-3 flex gap-3">
-        <Link href="/dmca">
-          <p className="hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm">
-            DMCA
-          </p>
-        </Link>
-        <a
-          href="https://github.com/baliram072x"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <p className=" hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm flex items-center gap-1">
-            <FaGithub />
-            Github
-          </p>
-        </a>
-      </div>
+      <div className="mb-28 text-gray-200 mx-3 flex gap-3">
+  <Link href="/dmca">
+    <p className="hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm">
+      DMCA
+    </p>
+  </Link>
+  <a
+    href="https://github.com/baliram072x"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <p className="hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm flex items-center gap-1">
+      <FaGithub />
+      Github
+    </p>
+  </a>
+</div>
+
     </div>
   );
 };
