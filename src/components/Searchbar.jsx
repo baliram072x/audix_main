@@ -40,7 +40,7 @@ const Searchbar = () => {
           name="search-field"
           autoComplete="off"
           id="search-field"
-          className="flex-1 bg-transparent w-64 focus:border-b border-white lg:w-96 placeholder-gray-300 outline-none text-base text-white p-4"
+          className="flex-1 bg-transparent w-50 focus:border-b border-white lg:w-82 placeholder-gray-300 outline-none text-base text-white p-4"
           placeholder="Search"
           type="search"
           value={searchTerm}
