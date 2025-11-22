@@ -58,15 +58,15 @@ const Sidebar = ({ showNav, setShowNav }) => {
             DMCA
           </p>
         </Link>
-        {/* <a
-          href="https://github.com/himanshu8443/hayasaka"
+        <a
+          href="https://github.com/baliram072x"
           target="_blank"
           rel="noreferrer"
         >
           <p className=" hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm flex items-center gap-1">
             <FaGithub />
             Github
-          </p> */}
+          </p>
         </a>
       </div>
     </div>
