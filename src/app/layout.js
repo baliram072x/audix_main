@@ -1,3 +1,5 @@
+"use client";
+
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import MusicPlayer from "@/components/MusicPlayer";
@@ -9,6 +11,8 @@ import { Toaster } from "react-hot-toast";
 import AuthProvider from "./AuthProvider";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
+import { useEffect } from "react";
+import { initFirebase } from "../firebaseConfig";
 
 const poppins = Poppins({
   weight: "500",
@@ -16,6 +20,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
+// Metadata (same as before)
 export const metadata = {
   title: "Audix",
   description: "Music streaming app",
@@ -29,21 +34,28 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  // Initialize Firebase Analytics
+  useEffect(() => {
+    initFirebase();
+  }, []);
+
   return (
     <html lang="en">
+      {/* Google Analytics */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-Z4FJ5T627Q"
       ></Script>
-      <Script>
-        {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-Z4FJ5T627Q');
-  `}
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-Z4FJ5T627Q');
+        `}
       </Script>
+
       <body className={poppins.className}>
         <Providers>
           <AuthProvider>
@@ -52,8 +64,10 @@ export default function RootLayout({ children }) {
             <Navbar />
             <Toaster />
             {children}
+
+            {/* Music Player Fix */}
             <div className="h-20"></div>
-            <div className="fixed  bottom-0 left-0 right-0 flex backdrop-blur-lg rounded-t-3 z-50">
+            <div className="fixed bottom-0 left-0 right-0 flex backdrop-blur-lg rounded-t-3 z-50">
               <MusicPlayer />
             </div>
           </AuthProvider>
@@ -62,21 +76,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-
-import "./globals.css";
-import { initFirebase } from "../firebaseConfig";
-import { useEffect } from "react";
-
-export default function RootLayout({ children }) {
-  useEffect(() => {
-    initFirebase(); // Initialize Firebase Analytics
-  }, []);
-
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
-
