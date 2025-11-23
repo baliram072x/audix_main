@@ -62,3 +62,21 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+import "./globals.css";
+import { initFirebase } from "../firebaseConfig";
+import { useEffect } from "react";
+
+export default function RootLayout({ children }) {
+  useEffect(() => {
+    initFirebase(); // Initialize Firebase Analytics
+  }, []);
+
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
+
