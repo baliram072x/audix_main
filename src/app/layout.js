@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import MusicPlayer from "@/components/MusicPlayer";
@@ -11,8 +9,7 @@ import { Toaster } from "react-hot-toast";
 import AuthProvider from "./AuthProvider";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
-import { useEffect } from "react";
-import { initFirebase } from "../firebaseConfig";
+import FirebaseInit from "./FirebaseInit";
 
 const poppins = Poppins({
   weight: "500",
@@ -20,7 +17,6 @@ const poppins = Poppins({
   display: "swap",
 });
 
-// Metadata (same as before)
 export const metadata = {
   title: "Audix",
   description: "Music streaming app",
@@ -34,11 +30,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // Initialize Firebase Analytics
-  useEffect(() => {
-    initFirebase();
-  }, []);
-
   return (
     <html lang="en">
       {/* Google Analytics */}
@@ -59,13 +50,15 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Providers>
           <AuthProvider>
+            <FirebaseInit />
+
             <TopProgressBar />
             <SongsHistory />
             <Navbar />
             <Toaster />
+
             {children}
 
-            {/* Music Player Fix */}
             <div className="h-20"></div>
             <div className="fixed bottom-0 left-0 right-0 flex backdrop-blur-lg rounded-t-3 z-50">
               <MusicPlayer />
