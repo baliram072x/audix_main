@@ -7,6 +7,7 @@ export async function createPlaylist(name) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ name }),
+      credentials: "include" // <-- Add this!
     });
 
     const data = await response.json();
@@ -24,6 +25,7 @@ export async function getUserPlaylists() {
       headers: {
         "Content-Type": "application/json",
       },
+      credentials: "include" // <-- Add this!
     });
 
     const data = await response.json();
@@ -44,6 +46,7 @@ export async function deletePlaylist(id) {
       body: JSON.stringify({
         playlistId: id,
       }),
+      credentials: "include" // <-- Add this!
     });
     const data = await response.json();
     return data;
@@ -64,6 +67,7 @@ export async function addSongToPlaylist(playlistID, song) {
         playlistID,
         song,
       }),
+      credentials: "include" // <-- Add this!
     });
     const data = await response.json();
     return data;
@@ -84,6 +88,7 @@ export async function deleteSongFromPlaylist(playlistID, song) {
         playlistID,
         song,
       }),
+      credentials: "include" // <-- Add this!
     });
     const data = await response.json();
     return data;
@@ -100,6 +105,7 @@ export async function getSinglePlaylist(id) {
       headers: {
         "Content-Type": "application/json",
       },
+      credentials: "include" // <-- Add this!
     });
     const data = await response.json();
     return data;
