@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className=' flex justify-center items-center'>
             <Link href='/'>
               <Image onClick={() => { dispatch(setProgress(100)) }}
-                src={logo} alt="logo" className=' lg:py-2  aspect-video w-[135px] h-[30.741px] lg:h-[58px] lg:w-[190px]' />
+                src={logo} alt="logo" className=' lg:py-2  aspect-video w-[50px] h-[50px] lg:h-[58px] lg:w-[190px]' />
             </Link>
           </div>
         </div>
