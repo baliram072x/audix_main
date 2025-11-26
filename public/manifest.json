@@ -1,12 +1,12 @@
 {
     "theme_color": "#000",
-    "background_color": "#000",
+    "background_color": "#00003f",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Hayasaka",
+    "name": "Audix",
     "description": "Music streaming and downloading platform.",
-    "short_name": "Hayasaka",
+    "short_name": "Audix",
     "icons": [
         {
             "src": "/icon-192x192.png",
