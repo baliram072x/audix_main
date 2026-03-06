@@ -74,8 +74,7 @@ import SongsHistory from "@/components/SongsHistory";
 import { Toaster } from "react-hot-toast";
 import AuthProvider from "./AuthProvider";
 import { Poppins } from "next/font/google";
-import Script from "next/script";
-import Script from 'next/script';
+
 
 const poppins = Poppins({
   weight: "500",
